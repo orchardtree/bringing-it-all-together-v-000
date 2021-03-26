@@ -112,7 +112,7 @@ class Dog
       SET ?
       WHERE ?
     SQL
-    DB[:conn].execute(sql, x, y)
+    DB[:conn].execute(sql)
   end
   
   
